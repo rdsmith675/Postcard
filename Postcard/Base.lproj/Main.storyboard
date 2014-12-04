@@ -67,6 +67,7 @@
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OMJ-a5-xwh">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -104,6 +105,16 @@
                                     <rect key="frame" x="16" y="80" width="356" height="59"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7e1-hX-y40">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="178" width="230" height="30"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +124,7 @@
                                 <exclude reference="It0-LY-toV"/>
                                 <exclude reference="IzE-ow-3M9"/>
                                 <exclude reference="ZH3-9h-4Mp"/>
+                                <exclude reference="7e1-hX-y40"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +134,7 @@
                                 <include reference="It0-LY-toV"/>
                                 <include reference="IzE-ow-3M9"/>
                                 <include reference="ZH3-9h-4Mp"/>
+                                <include reference="7e1-hX-y40"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +143,7 @@
                         <outlet property="enterNameTextField" destination="OMJ-a5-xwh" id="Xqe-eP-Uu3"/>
                         <outlet property="mailButton" destination="IzE-ow-3M9" id="CSX-6g-i6F"/>
                         <outlet property="messageLabel" destination="ZH3-9h-4Mp" id="xKf-HG-vED"/>
+                        <outlet property="nameLabel" destination="7e1-hX-y40" id="p73-Wr-ZLs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
